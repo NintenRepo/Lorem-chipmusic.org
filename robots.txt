@@ -1,0 +1,43 @@
+User-agent: *
+Disallow: /music/ajax_get_comments/
+Disallow: /music/ajax_list_by_user/
+Disallow: /music/comment/
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-Agent: trendictionbot 
+Disallow: /
+
+# Let's try if any of these will make WeSEE stop crawling, as it's said to not obey robots.txt. (Also blocked in .htaccess.)
+User-Agent: WeSEE
+Disallow: / 
+
+User-Agent: WeSEE:Search
+Disallow: / 
+
+User-Agent: WeSEE:Search/0.1
+Disallow: /
+
+# Claimed to be working in http://smythies.com/robots.txt
+User-Agent: Ezooms
+Disallow: /
+
+User-Agent: Exabot
+Disallow: /
+
+User-Agent: CompSpyBot
+Disallow: /
+
+# Infegy. Not sure if this will work. Infegy is a bunch of ass-hats all around.
+User-Agent: Socialradarbot
+Disallow: /
+
+User-Agent: grapeshot
+Disallow: /
